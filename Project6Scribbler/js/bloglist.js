@@ -11,4 +11,6 @@ modal.style.display="none";
 }
 }
 }trashFunction(5)
-function navigateToPost()
+function navigateToPost(){
+  local.href="post.html";
+}
