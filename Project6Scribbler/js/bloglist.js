@@ -1,16 +1,120 @@
-var transactions=function(numberOfPosts){
-for(var i=0;i<numberOfPosts;i++){
-var modal=document.getElementsByClassName('trash-modal')[i];
-var div=document.getElementsByClassName("post-trash")[i];
-var close=document.getElementsByClassName("trash-modal-button-no")[i];
-div.onclick=function(){
-modal.style.display="block";
+var modal = document.getElementById('deleteModal');
+var button = document.getElementById("button1");
+var nobutton=document.getElementById("nobutton");
+var span = document.getElementsByClassName("close")[2];
+button.onclick = function() {
+    modal.style.display = "block";
 }
-close.onclick=function(){
-modal.style.display="none";
+span.onclick = function() {
+    modal.style.display = "none";
 }
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}nobutton.onclick = function() {
+
+        modal.style.display = "none";}
+var modal = document.getElementById('deleteModal');
+var button2= document.getElementById("button2");
+var noButton=document.getElementById("nobutton");
+var span = document.getElementsByClassName("close")[2];
+button.onclick = function() {
+    modal.style.display = "block";
 }
-}trashFunction(5)
-function navigateToPost(){
-  local.href="post.html";
+span.onclick = function() {
+    modal.style.display = "none";
 }
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+nobutton.onclick = function() {
+
+    modal.style.display = "none";
+
+}
+
+var modal = document.getElementById('deleteModal');
+var button = document.getElementById("button3");
+var nobutton=document.getElementById("nobutton");
+var span = document.getElementsByClassName("close")[2];
+button.onclick = function() {
+    modal.style.display = "block";
+}span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+nobutton.onclick = function() {
+
+    modal.style.display = "none";
+
+}
+
+var modal = document.getElementById('deleteModal');
+var button = document.getElementById("button4");
+var nobutton=document.getElementById("nobutton");
+var span = document.getElementsByClassName("close")[2];
+button.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}nobutton.onclick = function() {
+
+    modal.style.display = "none";
+
+}
+
+var modal = document.getElementById('deleteModal');
+var button = document.getElementById("button5");
+var nobutton=document.getElementById("nobutton");
+var span = document.getElementsByClassName("close")[2];
+button.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+nobutton.onclick = function() {
+
+    modal.style.display = "none";
+
+}
+var modal = document.getElementById('deleteModal');
+var button = document.getElementById("button6");
+var nobutton=document.getElementById("nobutton");
+var span = document.getElementsByClassName("close")[2];
+button.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+nobutton.onclick = function() {
+
+    modal.style.display = "none";
+
+}
+
+
