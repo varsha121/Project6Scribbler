@@ -109,13 +109,15 @@
 
         <div class="postButtons">
             <div class="postBtn-Container">
-                    <button class="postBtn" ><a href="html/bloglist.html" style="text-decoration:none"><b>All Posts</b></a></button>
-                <button class="postBtn" onclick="createPostFunc()" style="cursor:pointer"><b>Create Posts</b></button>
+                    <button class="postBtn" id="apbtn" onclick="parent.location='html/bloglist.html'" style="cursor:pointer"><b>All Posts</b></a></button>
+
+				<button class="postBtn" onclick="createPostFunc()" style="cursor:pointer"><b>Create Posts</b></button>
                 <!-- The Modal -->
 
             </div>
         	<!-- Insert code for All Posts & Create Post button here -->
-
+			
+     
         </div>
         <div id="postCreateModalId" class="postCreateModal">
 
