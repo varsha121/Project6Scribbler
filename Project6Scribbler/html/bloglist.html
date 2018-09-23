@@ -15,18 +15,52 @@
                                 
             <!-- Insert code for Sign Up, Sign In button here. 
                  Add code for "ScriBBler" heading and the sub-heading -->
+            <div class="title-container">
+                <p class="title">ScriBBler</p>
+                <p class="sub-title">Explorer,Image,Create</p>
+            </div>
+            <div class="login-buttons-container">
+                <button onclick="showSignInModal()" class="blue-button" type="button">Sign In</button>
+                <button onclick="showSignUpModal()" class="blue-button" type="button">Sign Up</button>
 
         </div>
     </div>
     <div>
 
         <!-- Insert code for Sign In modal here -->
-
+        <div class="modal" id="signin-modal">
+            <div class ="modal-content">
+                <div class="modal-head">
+                    <span onclick="hideSignUpModal()" id="close" class="close">&times;</span>
+                    <h2 class="modal-title">Welcome Back!</h2>
+                </div>
+                <hr>
+                <form>
+                    <label for="username" class="label-text-text">Username</label>
+                    <input type="text" id="username" placeholder ="Enter Username" required>
+                    <label for="password" class="label-text">Password</label>
+                    <input type="password" id="password placeholder="Enter Password" required>
+                    <button type="submit" onclick="signin(username,password)"class="sign-btn">Sign In</button>
+                    </form>
+                    <p class-bottom-banner>Not a member?<span onclick="hideSignInModal();showSignUpModal()" class=signup>Sign Up</span></p>
     </div>
+       </div>
 
-    <div>
+    
 
         <!-- Insert code for Sign Up modal here -->
+       
+       <div class="modal" id="signup-modal">
+        <div class="modal-content">
+                                  
+           <div class="modal-head">
+             <span onclick="hideSignUpModal()" id="close" class="close">&times;</span>
+             <h2 class="modal-title">Get Started</h2>
+             </div>
+                                    
+             
+                                                                                            
+                                     
 
     </div>
 
